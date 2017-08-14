@@ -19,4 +19,6 @@ var checkValue = function(value) {
   }.bind(this, value);
 };
 
-console.log( getArray( my_array1, checkValue(2) ) );
+console.log(
+  getArray( my_array1, checkValue(2) )
+);
